@@ -19,10 +19,6 @@ PRODUCT_PACKAGES += \
     StatixSystemUI \
     StatixSettings
 
-# Google Camera GO
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Updaters
 ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
 PRODUCT_PACKAGES += \
